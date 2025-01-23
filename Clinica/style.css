@@ -1,0 +1,249 @@
+/* ================================ iNICIO de FUENTES ================================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* Esto quita la linea de los enlaces */
+    list-style: none; /* Esto quita las pelotitas de las listas */
+
+}
+
+body {
+    font-family: 'Poppins' , serif ;
+}
+/* ================================ FIN de FUENTES ================================ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido cuando la pagina modifica su tamaño (En teoria...) */
+}
+
+.headerIndex { /* Header inicial de la pagina */
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), /* Hacemos mas humilde la imagen */
+        rgba(0,0,0,0.7)), /* (La oscurecemos) */
+        url(imagenes/BobPanik2.jpg); /* Agregamos una imagen de fondo */
+        background-position: center bottom;
+        background-repeat: no-repeat; /* Para que la iamgen no se repita */
+        background-size: cover; /* Para que cubra todo el ancho y la altura */
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+/* ================================ INICIO de CONFIGURACIÓN MENU ================================ */
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #ffdfcf;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left; /* Los enlaces se colocan a la derecha */
+
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffdfcf;
+    display: block; /* Con esto el padding deberia colocarse correctamente */
+    font-weight: 600;
+}
+
+
+#menu{ /* Usamos el # para llamar especificamente al id */
+    display: none;
+}
+
+.menu-icono {
+    width: 25px; /* Reducir el tamaño del icono del Menu */
+}
+
+/* No quiero que aparezca hasta que se abra el menu así que... */
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+/* ================================ FIN de CONFIGURACIÓN MENU ================================ */
+
+/* ================================ INICIO de HEADER ================================ */ 
+
+.header-content {
+    text-align: center;
+
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+/* ================================ FIN de HEADER ================================ */ 
+
+/* ================================ INICIO de BOTONES ================================ */
+
+.btn-1 {
+    display: inline-block; /* Con esto ayuda al Margin y Padding*/
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+/* ================================ FIN de BOTONES ================================ */
+
+/* ================================ INICIO de SALUD ================================ */
+.salud  {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.salud-content {
+    text-align: center;
+}
+
+.salud-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txtSalud {
+    font-size: 10px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.salud-group {
+    display: flex; /* Para que los elementos se coloquen delante de cada uno */
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.salud-1 {
+    padding: 0 25px;
+}
+
+.salud-1  img{
+    width: 200px;
+}
+
+.salud-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.salud-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* ================================ FIN de SALUD ================================ */
+
+/* ================================ INICIO de SERVICIOS ================================ */
+.servicios {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/Nasus.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {
+    width: 200px; /* Esto deberia estar a 25px */
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    color: #E1E2E6;
+    font-size: 16px;
+}
+/* ================================ FIN de SERVICIOS ================================ */
+
+/* ================================ INICIO de GENERAL ================================ */
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2 {
+    background-image: url(imagenes/TheWhat.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+/* ================================ FIN de GENERAL ================================ */
+
