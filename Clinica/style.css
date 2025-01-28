@@ -24,7 +24,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.7), /* Hacemos mas humilde la imagen */
         rgba(0,0,0,0.7)), /* (La oscurecemos) */
-        url(imagenes/BobPanik2.jpg); /* Agregamos una imagen de fondo */
+        url(imagenes/VImagenEjemplo4.png); /* Agregamos una imagen de fondo */
         background-position: center bottom;
         background-repeat: no-repeat; /* Para que la iamgen no se repita */
         background-size: cover; /* Para que cubra todo el ancho y la altura */
@@ -179,7 +179,7 @@ body {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(imagenes/Nasus.png);
+        url(imagenes/VImagenEjemplo3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,7 +239,15 @@ body {
 }
 
 .general-2 {
-    background-image: url(imagenes/TheWhat.png);
+    background-image: url(imagenes/VImagenEjemplo2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(imagenes/VImagenEjemplo2.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,3 +255,78 @@ body {
 }
 /* ================================ FIN de GENERAL ================================ */
 
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #323337;
+    margin: 25px 0 45px 0;
+}
+
+
+/* ================================ INICIO de BLOG ================================ */
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+/* ================================ FIN de BLOG ================================ */
+
+/* ================================ INICIO de FOOTER ================================ */
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color:#f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color:#F9FAFC ;
+    display: block;
+    margin-bottom: 15px;
+}
+/* ================================ FIN de FOOTER ================================ */
+
+
+
+
+
+/* ================================ INICIO de SERVICIOS ================================ */
+/* ================================ INICIO de SERVICIOS ================================ */
+/* ================================ INICIO de SERVICIOS ================================ */
